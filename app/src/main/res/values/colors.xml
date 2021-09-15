@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="roxo_claro">#BCA0F1</color>
+    <color name="roxo">#FF6200EE</color>
+    <color name="verde_limao">#3EE103</color>
+    <color name="amarelo">#FFEB3B</color>
+    <color name="vermelho_comunista">#D10202</color>
+    <color name="rosa_choque">#FB00A7</color>
+    <color name="laranja">#FF5722</color>
+    <color name="preto">#FF000000</color>
+    <color name="branco">#FFFFFFFF</color>
+</resources>

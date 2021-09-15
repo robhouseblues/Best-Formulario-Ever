@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="MyApplication" parent="Theme.AppCompat.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/roxo</item>
+        <item name="colorPrimaryVariant">@color/verde_limao</item>
+        <item name="colorOnPrimary">@color/roxo_claro</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/verde_limao</item>
+        <item name="colorSecondaryVariant">@color/verde_limao</item>
+        <item name="colorOnSecondary">@color/branco</item>
+        <!-- Status bar color. -->
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="labelLetra" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">40sp</item>
+        <item name="fontFamily">@font/comic_sans</item>
+    </style>
+
+    <style name="buttonSelecionar" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginStart">160dp</item>
+        <item name="android:textColor">@color/branco</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>

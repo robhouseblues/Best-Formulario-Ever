@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/roxo_claro"
+    android:backgroundTint="@color/roxo_claro"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:contentDescription="Logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/label_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/comic_sans_ms"
+        android:text="Nome:"
+        android:textColor="@color/vermelho_comunista"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo" />
+
+    <EditText
+        android:id="@+id/edit_nome"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/background_edit"
+        android:fontFamily="@font/comic_sans"
+        android:textColor="@color/preto"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@id/label_nome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/label_nome"
+        app:layout_constraintTop_toTopOf="@id/label_nome" />
+
+    <TextView
+        android:id="@+id/label_letra1"
+        style="@style/labelLetra"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="@id/edit_nome"
+        app:layout_constraintTop_toBottomOf="@id/edit_nome" />
+
+    <Button
+        android:id="@+id/btn_selecionar1"
+        style="@style/buttonSelecionar"
+        android:background="@drawable/selector_button"
+        android:text="Selecionar"
+        app:layout_constraintBottom_toBottomOf="@id/label_letra1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/label_letra1" />
+
+    <TextView
+        android:id="@+id/label_letra2"
+        style="@style/labelLetra"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@id/edit_nome"
+        app:layout_constraintTop_toBottomOf="@id/label_letra1" />
+
+    <Button
+        android:id="@+id/btn_selecionar2"
+        style="@style/buttonSelecionar"
+        android:background="@drawable/selector_button"
+        android:text="Selecionar"
+        app:layout_constraintBottom_toBottomOf="@id/label_letra2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/label_letra2" />
+
+    <TextView
+        android:id="@+id/label_letra3"
+        style="@style/labelLetra"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@id/edit_nome"
+        app:layout_constraintTop_toBottomOf="@id/label_letra2" />
+
+    <Button
+        android:id="@+id/btn_selecionar3"
+        style="@style/buttonSelecionar"
+        android:background="@drawable/selector_button"
+        android:text="Selecionar"
+        app:layout_constraintBottom_toBottomOf="@id/label_letra3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/label_letra3" />
+
+    <TextView
+        android:id="@+id/label_letra4"
+        style="@style/labelLetra"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@id/edit_nome"
+        app:layout_constraintTop_toBottomOf="@id/label_letra3" />
+
+    <Button
+        android:id="@+id/btn_selecionar4"
+        style="@style/buttonSelecionar"
+        android:background="@drawable/selector_button"
+        android:text="Selecionar"
+        app:layout_constraintBottom_toBottomOf="@id/label_letra4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/label_letra4" />
+
+    <TextView
+        android:id="@+id/label_letra5"
+        style="@style/labelLetra"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@id/edit_nome"
+        app:layout_constraintTop_toBottomOf="@id/label_letra4" />
+
+    <Button
+        android:id="@+id/btn_selecionar5"
+        style="@style/buttonSelecionar"
+        android:background="@drawable/selector_button"
+        android:text="Selecionar"
+        app:layout_constraintBottom_toBottomOf="@id/label_letra5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/label_letra5" />
+
+    <TextView
+        android:id="@+id/label_letra6"
+        style="@style/labelLetra"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@id/edit_nome"
+        app:layout_constraintTop_toBottomOf="@id/label_letra5" />
+
+    <Button
+        android:id="@+id/btn_selecionar6"
+        style="@style/buttonSelecionar"
+        android:background="@drawable/selector_button"
+        android:text="Selecionar"
+        app:layout_constraintBottom_toBottomOf="@id/label_letra6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/label_letra6" />
+
+    <TextView
+        android:id="@+id/label_letra7"
+        style="@style/labelLetra"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@id/edit_nome"
+        app:layout_constraintTop_toBottomOf="@id/label_letra6" />
+
+    <Button
+        android:id="@+id/btn_selecionar7"
+        style="@style/buttonSelecionar"
+        android:background="@drawable/selector_button"
+        android:text="Selecionar"
+        app:layout_constraintBottom_toBottomOf="@id/label_letra7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/label_letra7" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
